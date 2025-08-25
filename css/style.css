@@ -95,12 +95,6 @@ body {
   object-fit: contain;
 }
 
-.brand-name {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #8b5cf6;
-}
-
 .nav-menu {
   display: flex;
   list-style: none;
