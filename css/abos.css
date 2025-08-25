@@ -1,0 +1,120 @@
+/* Schriften improtieren */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300); /* Schrift Lestext */
+@import url(https://fonts.googleapis.com/css2?family=Oswald); /* Schrift Überschriften H1-H4*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab); /* Schrift für Zitate */
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed); /* Schrift für Buttons und Navigation */
+
+/* Sektion5: Abos */
+#abo {
+  background-color: var(--sektion-bg-lila);
+}
+#abo-wrapper {
+  display: grid;
+  /* max-width: 1400px; */
+  /* margin-top: 100px; */
+  margin-inline: auto;
+  padding-block: 5rem;
+  padding-inline: 10rem;
+  background-color: var(--sektion-bg-lila);
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  align-content: center;
+  @media (width<1200px) {
+    padding-inline: 5rem;
+  }
+  @media (width<1200px) {
+    padding-inline: 2rem;
+  }
+  @media (width<900px) {
+    grid-template-columns: repeat(1, 1fr);
+    padding-inline: 5rem;
+  }
+}
+#abo-wrapper > h2 {
+  text-align: center;
+  grid-column: 1 / span 3;
+  color: var(--text-hell);
+  font-family: Oswald;
+  @media (width<900px) {
+    grid-column: 1;
+  }
+}
+#abo-wrapper > p {
+  margin-block: 10px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.abo-item {
+  width: 100%;
+  line-height: 1.5em;
+  padding: 1rem;
+  /* justify-content: center; */
+  justify-items: center;
+  background-color: var(--sektion-bg-schwarz) !important;
+  color: var(--text-hell);
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px black;
+}
+
+.abo-item > p {
+  margin-block: 10px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.abo-item > h3 {
+  font-family: Oswald;
+  margin-block: 15px;
+  /* text-decoration: underline; */
+}
+
+.abo-item > h2 {
+  text-align: center;
+  color: var(--text-hell);
+  font-family: Oswald;
+}
+
+.preis {
+  color: var(--akzentfarbe) !important;
+}
+
+.abo-item > hr {
+  width: 90%;
+  border-width: 2px;
+  border-color: silver;
+}
+
+.abo-item > ul {
+  /* list-style: disc; */
+  content: "-";
+  height: 200px;
+  padding: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+  @media (width<900px) {
+    height: auto;
+  }
+}
+.abo-item button {
+  /* align-self: center; */
+  width: 50%;
+  display: block;
+  margin-inline: auto;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: Roboto Condensed;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border-color: var(--button-border);
+  float: middle;
+}
+.abo-item button:hover {
+  background-color: var(--button-bg-hover);
+  color: var(--button-text-hover);
+  border-color: var(--button-border-hover);
+}
