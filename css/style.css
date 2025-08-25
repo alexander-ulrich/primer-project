@@ -159,6 +159,35 @@ body {
   transform: rotate(-45deg) translate(7px, -6px);
 }
 
+/* Stats Section */
+.stats {
+  background: linear-gradient(135deg, #000000 0%, rgb(102, 49, 215) 100%);
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #8b5cf6;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+}
+
 /* Footer */
 .footer {
   background: rgb(0, 0, 0);
