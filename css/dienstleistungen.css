@@ -1,16 +1,11 @@
 #dienstleistungen-wrapper {
   display: grid;
-  margin: 10rem;
-  /* max-width: 1400px; */
-  /* background-color: rgba(0, 0, 0, 0); */
-  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  gap: 30px;
   justify-content: space-evenly;
-  @media (width<900px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
-
 .dienstleistungen-item {
   width: 100%;
   line-height: 1.5em;
