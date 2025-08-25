@@ -1,3 +1,5 @@
+@import url("/css/dienstleistungen.css");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -157,4 +159,142 @@ body {
 
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Footer */
+.footer {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-content {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  height: 75px;
+  width: 75px;
+  object-fit: contain;
+}
+
+.footer-description {
+  color: #cbd5e1;
+  margin-bottom: 2rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  background: #334155;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: #8b5cf6;
+  transform: translateY(-2px);
+}
+
+.footer-title {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #8b5cf6;
+}
+
+.newsletter-text {
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+}
+
+.newsletter-input::placeholder {
+  color: #94a3b8;
+}
+
+.footer-bottom {
+  border-top: 1px solid #475569;
+  padding-top: 2rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-copyright {
+  color: #94a3b8;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-bottom-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #8b5cf6;
 }
