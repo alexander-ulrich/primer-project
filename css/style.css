@@ -5,6 +5,7 @@
 }
 body {
   max-width: 1400px;
+  margin: auto;
 }
 #body-wrapper {
   display: grid;
