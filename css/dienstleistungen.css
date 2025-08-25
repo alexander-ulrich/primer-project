@@ -1,7 +1,3 @@
-section1 {
-  /* background-color: var("--sektion-bg-schwarz"); */
-  background-color: black;
-}
 #dienstleistungen-wrapper {
   display: grid;
   margin: 10rem;
