@@ -1,28 +1,58 @@
+/* Schriften improtieren */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300); /* Schrift Lestext */
+@import url(https://fonts.googleapis.com/css2?family=Oswald); /* Schrift Überschriften H1-H4*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab); /* Schrift für Zitate */
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed); /* Schrift für Buttons und Navigation */
+
+/* Sektion2: Dienstleistungen */
+
 #dienstleistungen-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 100px;
-  background-color: rgba(0, 0, 0, 0);
+  max-width: 1400px;
+  margin-top: 100px;
+  margin-inline: auto;
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  background-color: var(--sektion-bg-schwarz);
   gap: 30px;
-  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  align-content: center;
+  @media (width<900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
+
 .dienstleistungen-item {
   width: 100%;
   line-height: 1.5em;
-  padding: 15px;
-  background-color: bisque;
+  padding: 1rem;
+  justify-items: center;
+  background-color: var(--sektion-bg-lila);
+  color: var(--text-hell);
+  /* border-color: var(--akzentrahmen);
+  border-width: 1px; */
   border-radius: 5px;
+  box-shadow: 4px 4px 4px black;
 }
 .dienstleistungen-item > p {
   margin-block: 10px;
+  font-family: Roboto Condensed;
+}
+.dienstleistungen-item > h3 {
+  font-family: Oswald;
 }
 .dienstleistungen-p-call-to-action {
   font-weight: bold;
+  font-family: Roboto Condensed;
 }
 #dienstleistungen-h2 {
   text-align: center;
   grid-column: 1 / span 3;
-  color: var("--text-hell");
+  color: var(--text-hell);
+  font-family: Oswald;
   @media (width<900px) {
     grid-column: 1;
   }
