@@ -11,3 +11,16 @@ body {
   display: grid;
   grid-template-rows: repeat(8, 1fr);
 }
+
+/* Schriften improtieren */
+@import url(..fonts/);
+
+/* Farben für Akzente */
+:root {
+  --akzentfarbe: #f5c118;
+  --akzentrahmen: #f5c118;
+
+  /*Farben für Sektionen*/
+  --sektion-bg-lila: #e1bee7;
+  --sektion-bg-gelb: #fff9c4;
+}
