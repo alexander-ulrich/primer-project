@@ -13,19 +13,30 @@ body {
 }
 
 /* Schriften improtieren */
-@import url(..fonts/);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;); /* Schrift Lestext */
+@import url(https://fonts.googleapis.com/css2?family=Oswald;); /* Schrift Überschriften H1-H4*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab;); /* Schrift für Zitate */
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed;); /* Schrift für Buttons und Navigation */
 
 /* Farben für Akzente */
 :root {
-  --akzentfarbe: #f5c118; /* um Beispielsweise besondere Dinge hervorzuheben */
-  --akzentrahmen: #f5c118; /* um aktive Boxen oder Hover hervorzueheben */
+  --akzentfarbe: rgb(
+    239,
+    207,
+    27
+  ); /* um Beispielsweise besondere Dinge hervorzuheben */
+  --akzentrahmen: rgb(
+    239,
+    207,
+    27
+  ); /* um aktive Boxen oder Hover hervorzueheben */
 
   /*Farben für Sektionen*/
   --sektion-bg-lila: rgb(102, 49, 215);
-  --sektion-bg-gelb: rgb(26, 26, 26);
+  --sektion-bg-schwarz: rgb(26, 26, 26);
 
   /*Farben für Texte*/
-  --text-hell: #f4efff; /*bei dunklen Hintergründen*/
+  --text-hell: rgb(248, 248, 248); /*bei dunklen Hintergründen*/
   --text-dunkel: rgb(35, 31, 45); /*bei hellen Hintergründen*/
 
   /*Hintergrund Background schwarz für Body*/
@@ -38,4 +49,9 @@ body {
   --button-text-hover: rgb(255, 255, 255);
   --button-border: rgb(239, 207, 27);
   --button-border-hover: rgb(255, 0, 0);
+
+  /*Farben für Hauptnavigation - aktuell nur Text*/
+  --navi-text: rgb(255, 255, 255);
+  --navi-text-hover: rgb(239, 207, 27);
+  --navi-bg: rgb(35, 31, 45);
 }
