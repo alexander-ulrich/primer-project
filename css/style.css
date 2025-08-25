@@ -3,3 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
+/* Schriften improtieren */
+@import url(..fonts/);
+
+/* Farben für Akzente */
+:root {
+  --akzentfarbe: #f5c118;
+  --akzentrahmen: #f5c118;
+
+  /*Farben für Sektionen*/
+  --sektion-bg-lila: #e1bee7;
+  --sektion-bg-gelb: #fff9c4;
+}
