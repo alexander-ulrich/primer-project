@@ -1,24 +1,26 @@
-@import url(dienstleistungen.css);
+@import url(/css/dienstleistungen.css);
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
-  max-width: 1400px;
+  background-color: var(--sektion-bg-schwarz);
   margin: auto;
 }
+
 #body-wrapper {
   display: grid;
   grid-template-rows: repeat(8, 1fr);
 }
 
 /* Schriften improtieren */
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;); /* Schrift Lestext */
-@import url(https://fonts.googleapis.com/css2?family=Oswald;); /* Schrift Überschriften H1-H4*/
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab;); /* Schrift für Zitate */
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed;); /* Schrift für Buttons und Navigation */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300); /* Schrift Lestext */
+@import url(https://fonts.googleapis.com/css2?family=Oswald); /* Schrift Überschriften H1-H4*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab); /* Schrift für Zitate */
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed); /* Schrift für Buttons und Navigation */
 
 /* Farben für Akzente */
 :root {
