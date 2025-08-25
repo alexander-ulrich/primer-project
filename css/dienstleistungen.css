@@ -39,14 +39,16 @@
 }
 .dienstleistungen-item > p {
   margin-block: 10px;
-  font-family: Roboto Condensed;
+  font-family: Roboto;
+  font-weight: 300;
 }
 .dienstleistungen-item > h3 {
   font-family: Oswald;
 }
 .dienstleistungen-p-call-to-action {
   font-weight: bold;
-  font-family: Roboto Condensed;
+  font-family: Roboto;
+  font-weight: 300;
 }
 #dienstleistungen-h2 {
   text-align: center;
