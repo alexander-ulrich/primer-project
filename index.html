@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de"> 
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
     <title>ASH - Gaming-Desktop-PCs & IT-Dienstleistungen</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- Header Section -->
-    <header class="header">
-      <nav class="navbar">
+    <div id="body-wrapper">
+          <!-- Header Section -->
+      <header id="start" class="header">
+      <nav class="navbar" style="background-color: black; width: 300px; height: 100px;">
         <div class="container">
           <div class="nav-brand">
             <img src="img/ash-logo.png.png" alt="ASH Logo" class="logo" />
@@ -41,148 +36,102 @@
           </div>
         </div>
       </nav>
-    </header>
+        </header>
+      <!-- #####  End HEADER #### -->
 
-    <!---Hero Section--->
-    <section id="home" class="hero">
-        <div class="hero-content">
-        <div class="hero-image">
-          <img src="img/hero1.png" alt="hero" />
-        </div>
-      </section>
-      <br/><br/>
-      
-<!--Top Angebote Section-->
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Angebote - Gaming PCs</title>
-    
-    <!-- Schriften importieren -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> <!-- Schrift Lestext -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet"> <!-- Schrift Überschriften H1-H4-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet"> <!-- Schrift für Zitate -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> <!-- Schrift für Buttons und Navigation -->
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="top-angebote-container">
-        <h1 class="section-title">Top Angebote</h1>
-        <p class="section-subtitle">Gaming PCs mit RGB-Beleuchtung - Sparen Sie bis zu 40%</p>
-        
-        <div class="products-grid">
-            <!-- Gaming PC 1 -->
-            <div class="product-card">
-                <div class="product-image"><img src="img/top angebote 1.png">
-                    <div class="product-image-placeholder"></div>
-                    <div class="discount-badge">-35%</div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-title">Gaming PC RGB Red Edition</h3>
-                    <div class="rating">
-                        <span class="stars">★★★★★</span>
-                        <span class="rating-text">(4.9) 156 Bewertungen</span>
-                    </div>
-                    <ul class="specs-list">
-                        <li>AMD Ryzen 7 5800X</li>
-                        <li>RTX 4070 Ti 12GB</li>
-                        <li>32GB DDR4 RGB RAM</li>
-                        <li>1TB NVMe SSD</li>
-                    </ul>
-                    <div class="price-container">
-                        <span class="price-current">1.299€</span>
-                        <span class="price-original">1.999€</span>
-                    </div>
-                    <button class="buy-button">Jetzt kaufen</button>
-                </div>
+      <main>
+        <!-- Dienstleistungen Section -->
+        <section1 id="dienstleistungen">
+          <div id="dienstleistungen-wrapper">
+            <h2 id="dienstleistungen-h2">Unsere Dienstleistungen</h2>
+            <div class="dienstleistungen-item">
+              <h3>Individueller Zusammenbau</h3>
+              <p>
+                Wir bauen deinen Gaming-PC genau nach deinen Vorstellungen – von
+                der Auswahl der leistungsstärksten Komponenten bis hin zum
+                perfektem Kabelmanagement. So erhälst du ein System, das nicht
+                nur stark performt, sondern auch optisch überzeugt!
+              </p>
+              <p class="dienstleistungen-p-call-to-action">
+                👉 Lass dir jetzt deinen Traum-Gaming-PC von uns zusammenstellen!
+              </p>
             </div>
-
-            <!-- Gaming PC 2 -->
-            <div class="product-card">
-                <div class="product-image"><img src="img/top angebote 2.png">
-                    <div class="product-image-placeholder"></div>
-                    <div class="discount-badge">-30%</div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-title">Gaming PC RGB Gold Edition</h3>
-                    <div class="rating">
-                        <span class="stars">★★★★☆</span>
-                        <span class="rating-text">(4.7) 203 Bewertungen</span>
-                    </div>
-                    <ul class="specs-list">
-                        <li>Intel i7-13700K</li>
-                        <li>RTX 4080 16GB</li>
-                        <li>32GB DDR5 RGB RAM</li>
-                        <li>2TB NVMe SSD</li>
-                    </ul>
-                    <div class="price-container">
-                        <span class="price-current">1.799€</span>
-                        <span class="price-original">2.599€</span>
-                    </div>
-                    <button class="buy-button">Jetzt kaufen</button>
-                </div>
+            <div class="dienstleistungen-item">
+              <h3>Hardware-Beratung</h3>
+              <p>
+                Ob Full-HD, WQHD oder 4K – wir finden die richtige Hardware,
+                damit du deine Lieblingsspiele flüssig und in bester Qualität
+                genießen kannst. Wir beraten dich individuell und stellen
+                sicher, dass dein Gaming-PC genau zu deinem Budget passt!
+              </p>
+              <p class="dienstleistungen-p-call-to-action">
+                👉 Hol dir jetzt deine persönliche Hardware-Beratung!
+              </p>
             </div>
-
-            <!-- Gaming PC 3 -->
-            <div class="product-card">
-                <div class="product-image"><img src="img/top angebote 3.png">
-                    <div class="product-image-placeholder"></div>
-                    <div class="discount-badge">-25%</div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-title">Gaming PC RGB Fire Edition</h3>
-                    <div class="rating">
-                        <span class="stars">★★★★★</span>
-                        <span class="rating-text">(4.8) 127 Bewertungen</span>
-                    </div>
-                    <ul class="specs-list">
-                        <li>AMD Ryzen 9 7900X</li>
-                        <li>RTX 4070 12GB</li>
-                        <li>16GB DDR5 RGB RAM</li>
-                        <li>1TB NVMe SSD</li>
-                    </ul>
-                    <div class="price-container">
-                        <span class="price-current">1.149€</span>
-                        <span class="price-original">1.529€</span>
-                    </div>
-                    <button class="buy-button">Jetzt kaufen</button>
-                </div>
+            <div class="dienstleistungen-item">
+              <h3>Reparatur</h3>
+              <p>
+                Ruckler, Abstürze oder defekte Hardware? Wir bringen deinen
+                Gaming-PC wieder auf Höchstleistung! Schnell, zuverlässig und
+                mit einem klaren Blick auf maximale FPS.
+              </p>
+              <p class="dienstleistungen-p-call-to-action">
+                👉 Jetzt Reparatur anfragen und wieder sorgenfrei zocken!
+              </p>
             </div>
-
-            <!-- Gaming PC 4 -->
-            <div class="product-card">
-                <div class="product-image"><img src="img/top angebote 4.png">
-                    <div class="product-image-placeholder"></div>
-                    <div class="discount-badge">-40%</div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-title">Gaming PC RGB Neon Edition</h3>
-                    <div class="rating">
-                        <span class="stars">★★★★★</span>
-                        <span class="rating-text">(4.9) 189 Bewertungen</span>
-                    </div>
-                    <ul class="specs-list">
-                        <li>Intel i9-13900K</li>
-                        <li>RTX 4090 24GB</li>
-                        <li>64GB DDR5 RGB RAM</li>
-                        <li>4TB NVMe SSD</li>
-                    </ul>
-                    <div class="price-container">
-                        <span class="price-current">2.999€</span>
-                        <span class="price-original">4.999€</span>
-                    </div>
-                    <button class="buy-button">Jetzt kaufen</button>
-                </div>
+          </div>
+        </section1>
+        <!-- Dienstleistungen Section END -->
+    <section2 id="service"></section2>
+    <section3 id="angebote"></section3>
+    <section4 id="abo">
+        <div id="abo-wrapper">
+            <h2>Damit du sofort losstarten kannst, bieten wir umfangreiche Abomodelle zu unseren PCs:</h2>
+            <div class="abo-item">
+                <h3>Basic</h3>
+                <h2 class="preis">9,99€/Monat</h2>
+                <p>monatliche Zahlung</p>
+                <hr>
+                <h3>Abo-Vorteile:</h3>
+                <ul>
+                    <li>Xbox Game Pass PC Mitgliedschaft</li>
+                    <li>Kostenloser Versand</li>
+                </ul>
+                <button>Abo auswählen</button>
+            </div>
+            <div class="abo-item">
+                <h3>Pro</h3>
+                <h2 class="preis">14,99€/Monat</h2>
+                <p>monatliche Zahlung</p>
+                <hr>
+                <h3>Abo-Vorteile:</h3>
+                <ul>
+                    <li>Xbox Game Pass PC Mitgliedschaft</li>
+                    <li>Kostenloser Express-Versand</li>
+                    <li>Exklusive Angebote</li>
+                </ul>
+                <button>Abo auswählen</button>
+            </div>
+            <div class="abo-item">
+                <h3>Ultimate</h3>
+                <h2 class="preis">39,99€/Monat</h2>
+                <p>monatliche Zahlung</p>
+                <hr>
+                <h3>Abo-Vorteile:</h3>
+                <ul>
+                    <li>Xbox Game Pass Ultimate Mitgliedschaft</li>
+                    <li>Kostenloser Express-Versand</li>
+                    <li>Exklusive Angebote</li>
+                    <li>Geburtstagsgeschenk</li>
+                    <li>Support mit erhöhter Priorität</li>
+                </ul>
+                <button>Abo auswählen</button>
             </div>
         </div>
-    </div>
-</body>
-</html>
-<br/><br/>
-
-    <!-- Stats Section -->
+    </section4>
+    <section5 id="daten"></section5>
+    <section6 id="news"></section6>
+<!-- Stats Section -->
     <section id="stats" class="stats">
       <div class="container">
         <div class="stats-grid">
@@ -205,15 +154,15 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
+        <!--end state section-->
+        <!--Footer-->
+        <footer>
+  <div class="container">
         <div class="footer-content">
           <div class="footer-section">
             <div class="footer-brand">
               <img
-                src="img/ash-logo.png.png"
+                src="images/ash-logo.png.png"
                 alt="ASH Logo"
                 class="footer-logo"
               />
@@ -281,7 +230,8 @@
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+</footer>
+        <!--End Footer-->
+    </div>
   </body>
 </html>
