@@ -1,5 +1,5 @@
-@import url(/css/dienstleistungen.css);
-@import url(/css/abos.css);
+@import url(dienstleistungen.css);
+@import url(abos.css);
 
 * {
   box-sizing: border-box;
